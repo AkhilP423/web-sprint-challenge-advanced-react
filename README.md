@@ -117,9 +117,12 @@ test("displays plants in cart", () => {
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers below.
 
 1. What are the main differences between a stateful and a functional component?
-
+A stateless component does not match the remembered state value, it simply renders and is done. A stateful component, on the other hand, remembers the value of a component and adjusts it to the changed state. 
 2. When does a componentWillMount function be called? What about a componentWillUpdate?
-
+componentWillMount is called after the constructor function call, and that's including initial state value and super. componentDidMount is called only after the component is mounted on to the screen.
 3. Define stateful logic.
-
+It is code that is used to state and store while updating the current state of being with different states/values.
 4. What are the three step of creating a successful test? What is done in each phase? 
+Arrange: Inputs are set, as well as test cases.
+Act: Acts on the behavior of the target.
+Assert: Displays what is supposed to happen.
